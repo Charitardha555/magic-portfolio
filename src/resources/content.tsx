@@ -7,15 +7,15 @@ const person: Person = {
   name: `Charitardha Pulipati`,
   role: "Cybersecurity Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "charitardhapulipati@gmail.com",
+  location: "India/Hyderabad", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Telugu", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: <>My weekly newsletter about Cybersecurity and engineering</>,
 };
 
 const social: Social = [
@@ -25,13 +25,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Charitardha555",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/charitardha-pulipati",
     essential: true,
   },
   {
@@ -44,7 +44,7 @@ const social: Social = [
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@once_ui",
-    essential: true,
+    essential: false,
   },
   {
     name: "Email",
@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building technology for cybersecurity</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Charitardha Pulipati, a Cybersecurity Intern at <Text as="span" size="xl" weight="strong">HACKERS GURUKUL</Text>, where I craft intuitive <br /> Cybertech solutions. I build my own projects.
 </>
   ),
 };
@@ -94,7 +94,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -102,9 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Charitardha Pulipati is a cybersecurity engineer and full‑stack developer who loves breaking and hardening systems in equal measure. From web‑app pentests and red‑team style labs to building production‑ready tools in Python and JavaScript, I focus on turning real‑world attack paths into practical, secure solutions. This portfolio showcases the projects, CTFs, and experiments that best represent how I think about security, automation, and resilient software design
       </>
     ),
   },
@@ -113,16 +111,15 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "HACKERS GURUKUL",
+        timeframe: "2025 - Present",
+        role: "Cybersecurity Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed the UI/UX for the Hackers Gurukul's Certificate platform, resulting in new-gen UI and fast certificate generations.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
+            Spearheaded the integration of AI tools into application workflows, enabling users to
             iterate 50% faster.
           </>,
         ],
@@ -136,22 +133,6 @@ const about: About = {
           },
         ],
       },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
     ],
   },
   studies: {
@@ -159,12 +140,8 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Govt Polytehnic, masabatank, Hyderabad",
+        description: <>Studied Electronics and Comminication engineering.</>,
       },
     ],
   },
@@ -173,14 +150,14 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Gen-AI",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>I am a succesful AI prompter to make anyhing using AI.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Gen-AI",
+            
           },
         ],
         // optional: leave the array empty if you don't want to display images
